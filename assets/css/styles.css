@@ -1,0 +1,45 @@
+header{
+    border-bottom: 2px solid black;
+    height: 75px;
+}
+h1{
+    background-color: lightsalmon;
+    text-align: center;
+    padding-right: 20px;
+    height: 42.5px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+header h1{
+    float: left;
+    padding-left: 20px;
+}
+
+header nav{
+    float: right;
+    border: 50px;
+    margin: 25px;
+}
+h3{
+    background-color: white;
+    color: lightsalmon;
+    border-bottom: 2px;
+    height: 75px;
+    
+
+}
+footer{
+    align-self: auto;
+    background-color: teal;
+    height: 25px;
+    margin-top: 450px;
+    border-top: 2px solid black;
+    padding-bottom: 50px;
+    
+}
+p{
+    text-align: center;
+    color: gainsboro;
+    padding-top: 40px;
+}
