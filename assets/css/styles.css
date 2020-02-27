@@ -1,7 +1,3 @@
-header {
-  border-bottom: 2px solid black;
-  height: 75px;
-}
 h1 {
   background-color: lightsalmon;
   text-align: center;
@@ -12,19 +8,26 @@ h1 {
 }
 
 header h1 {
-  float: left;
   padding-left: 20px;
 }
 
-header nav {
-  float: right;
-  border: 50px;
-  margin: 25px;
+.container nav {
+  border-bottom: 2px solid black;
+  /* margin: 25px; */
+  /* padding: 15px; */
 }
+
+.container nav ul {
+  text-align: right;
+}
+
+#content {
+  display: flex;
+}
+
 h3 {
   background-color: white;
   color: lightsalmon;
-  border-bottom: 2px;
   height: 75px;
   font-size: 28px;
   padding-right: 20px;
@@ -49,6 +52,8 @@ footer p {
 
 p {
   text-align: center;
+  /* float: right; */
+  display: flex;
 }
 
 .container {
@@ -56,14 +61,32 @@ p {
   margin: 0 auto;
 }
 
-header li {
+.container nav ul li {
+  /* list-style: none; */
   display: inline;
   margin: 10px;
   font-size: 18px;
 }
-header li a {
+.container nav ul li a {
   text-decoration: none;
+  color: black;
+  transition: color 0.2s;
 }
+
+.container nav ul li a:after {
+  display: inline;
+  margin-left: 20px;
+  content: "|";
+}
+
+.container nav ul li:last-child a:after {
+  content: "";
+}
+
+.container nav ul li:hover a {
+  color: lightgray;
+}
+
 nav {
   text-decoration: none;
 }
